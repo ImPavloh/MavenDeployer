@@ -4,11 +4,11 @@
 Despliegue automático remoto Maven con gestión de servicios.
 </p>
 
-<div style="display: flex; justify-content: space-between; margin-bottom:15px;">
-    <img src="https://i.imgur.com/ypEf6cu.jpeg" style="max-width: 45%; height: auto; margin-right: 10px;">
-    <img src="https://i.imgur.com/Lzr0B57.jpeg" style="max-width: 45%; height: auto; margin-left: 10px;">
+<div align="center">
+    <img src="https://i.imgur.com/ypEf6cu.jpeg" alt="Inicio de script" width="300"/>&nbsp;
+    <img src="https://i.imgur.com/Lzr0B57.jpeg" alt="Script en ejecución" width="300"/>
 </div>
-
+&nbsp;
 <p align="center">
     <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
     <img src="https://img.shields.io/badge/cmd-4D4D4D?style=for-the-badge&logo=windows%20terminal&logoColor=white" alt="CMD">
@@ -17,21 +17,21 @@ Despliegue automático remoto Maven con gestión de servicios.
 
 ## 🌟 Características
 
-🧹 Limpieza del proyecto: elimina artefactos de compilaciones anteriores.
+🧹 <strong>Limpieza del proyecto</strong>: elimina artefactos de compilaciones anteriores.
 
-📦 Instalación de dependencias: utiliza Maven para gestionar y descargar dependencias.
+📦 <strong>Instalación de dependencias</strong>: utiliza Maven para gestionar y descargar dependencias.
 
-🔨 Compilación de proyectos: genera archivos ejecutables JAR.
+🔨 <strong>Compilación de proyectos</strong>: genera archivos ejecutables JAR.
 
-🔍 Verificación de servicios: comprueba que los servicios Apache y Tomcat estén funcionando antes del despliegue.
+🔍 <strong>Verificación de servicios</strong>: comprueba que los servicios Apache y Tomcat estén funcionando antes del despliegue.
 
-📤 Transferencia y despliegue: sube y despliega el JAR en el servidor mediante SSH.
+📤 <strong>Transferencia y despliegue</strong>: sube y despliega el JAR en el servidor mediante SSH.
 
-🔄 Automatización del inicio: configura crontab para iniciar la aplicación al reiniciar el servidor.
+🔄 <strong>Automatización del inicio</strong>: configura crontab para iniciar la aplicación al reiniciar el servidor.
 
 ## 📋 Requisitos
 
-- Windows 10/11 64 bits.
+- <strong>Windows 10/11 64 bits</strong>.
 
 - Maven y Curl instalados en el sistema local.
 
@@ -46,20 +46,18 @@ Antes de ejecutar el script, asegúrate de completar correctamente la informaci�
 ```bat
 set "SERVER=usuario@servidor"
 set "REMOTEDIR=/ruta/"
-set "URL=http://ejemplo.com"
-set "IP=127.0.0.1:8080"
 set "HOSTKEY=ssh-ed25519 255 SHA256:clave"
 ```
 
 ## 🚀 Uso
 
-Para ejecutar el script, simplemente navega al directorio del proyecto y ejecuta:
+Para ejecutar el script, navega al directorio del proyecto y ejecuta:
 
 ```bash
 maven-deployer.bat
 ```
 
-Sigue las instrucciones en pantalla para ingresar contraseñas cuando se soliciten.
+#### Sigue las instrucciones en pantalla para ingresar contraseñas cuando se soliciten.
 
 ## 📄 Licencia
 
