@@ -35,7 +35,7 @@ Despliegue automático remoto Maven con gestión de servicios.
 
 - Maven y Curl instalados en el sistema local.
 
-- Proyecto Maven (Java - Jar) y base de datos preparada.
+- Proyecto Maven (Java - Jar) y base de datos (en caso de tener alguna) preparada.
 
 - Acceso SSH configurado y permisos adecuados en el servidor destino.
 
@@ -51,7 +51,7 @@ set "HOSTKEY=ssh-ed25519 255 SHA256:clave"
 
 ## 🚀 Uso
 
-Para ejecutar el script, navega al directorio del proyecto y ejecuta:
+Para ejecutar el script, mueve el script al directorio del proyecto, muévete al directorio y ejecuta:
 
 ```bash
 maven-deployer.bat
@@ -65,4 +65,4 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](https://
 
 ### 🤝 Contribuciones
 
-Las contribuciones son bienvenidas, acepto  Pull Requests :)
+No dudes en abrir una [Issue](https://github.com/ImPavloh/MavenDeployer/issues/new) si tienes algún problema o hacer [Pull Request](https://github.com/ImPavloh/MavenDeployer/pulls) si quieres contribuir :)
